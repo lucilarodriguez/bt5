@@ -1,0 +1,16 @@
+{
+  "name": "homeGit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "purgecss --css scss/custom.css --content index.html --output scss/reducido.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
